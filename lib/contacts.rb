@@ -14,7 +14,7 @@ require 'pry'
   #   }
   # }
 
-def remove_strawberry
+def remove_strawberry(contacts)
   contacts.each do |name, data|
     if person == "Freddy Mercury"
     data.each do |attribute, data|
