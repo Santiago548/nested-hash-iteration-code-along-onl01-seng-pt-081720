@@ -14,6 +14,12 @@ require 'pry'
   #   }
   # }
 
-def method_name
-
+def remove_strawberry
+  contacts.each do |name, data|
+    data.each do|attribute, value|
+      if attribute == :favorite_ice_cream_flavors
+        value.pop
+      end
+    end
+  end
 end
