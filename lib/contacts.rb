@@ -15,5 +15,5 @@ require 'pry'
   # }
 
 def method_name
-  
+
 end
